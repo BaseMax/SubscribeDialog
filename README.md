@@ -1,1 +1,12 @@
-# SubscribeDialog
+# Subscribe Dialog
+Display the dialog for submit email.
+
+<center>
+<img width="92%" src="https://raw.githubusercontent.com/BaseMax/SubscribeDialog/master/demo.png">
+</center>
+  
+Effective Members List :
+-----------------------
+
+- **Programmer:** Base Max
+
