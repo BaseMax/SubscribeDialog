@@ -1,0 +1,135 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+body
+{
+	background-color: #fafafa;
+	background-image: url('_bg.png');
+	background-repeat: repeat;
+}
+#dialog-close
+{
+	cursor: pointer;
+	position: fixed;
+	top: 50px;
+	right: 50px;
+	background-color: white;
+	border-radius: 18px;
+	box-shadow: 0px 0px 20px rgb(223, 223, 223);
+	padding: 10px;
+}
+#logo
+{
+	width: 90px;
+	height: 80px;
+	background-image: url('_logo.png');
+	margin-top: -40px;
+	position: absolute;
+	left: calc(100% / 2 - 45px);
+}
+#icon-verify
+{
+	width: 17px;
+	height: 19px;
+	background-image: url('_verify.png');
+}
+#icon-close
+{
+	width: 15px;
+	height: 14px;
+	background-image: url('_closee.png');
+	display: inline-block;
+}
+#icon-success
+{
+	width: 30px;
+	height: 31px;
+	background-image: url('_success.png');
+}
+#icon-email
+{
+	width: 30px;
+	height: 20px;
+	background-image: url('_email.png');
+	display: inline-block;
+	float: left;
+	margin: 15px;
+}
+#dialog
+{
+	margin: auto;
+	width: 550px;
+	height: 397px;
+	border-radius: 35px;
+	background-color: white;
+	box-shadow: 0px 0px 20px rgb(223, 223, 223);
+	margin-top: 12%;
+	margin-bottom: 12%;
+}
+#dialog form input
+{
+	border: 0px;
+	height: 50px;
+	float: right;
+	width: calc(100% - 80px);
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: transparent;
+}
+#dialog form button
+{
+	cursor: pointer;
+	width: 100%;
+	height: 71px;
+	border: 0px;
+	border-bottom-left-radius: 18px;
+	border-bottom-right-radius: 18px;
+	background-color: #34A5F4;
+	color: white;
+	font-weight: bold;
+}
+#dialog form button #icon-success
+{
+	vertical-align: middle;
+	display: inline-block;
+}
+#editbox
+{
+	width: 80%;
+	height: 50px;
+	border-radius: 4px;
+	border: 2px solid #dddddd;
+}
+#dialog h2
+{
+	font-size: 25px;
+}
+#dialog h3
+{
+	font-size: 14px;
+}
+#text
+{
+	margin: auto;
+	text-align: center;
+	padding: 15px;
+	margin-bottom: 30px;
+	left: 10%;
+	right: 10%;
+	position: relative;
+}
+#text #icon-verify
+{
+	float: left;
+}
+#text p
+{
+	padding-top: 3px;
+	padding-left: 5px;
+	vertical-align: middle;
+	font-size: 12px;
+	float: left;
+	color: #aaaaaa;
+}
