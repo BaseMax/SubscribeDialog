@@ -8,5 +8,6 @@ Display the dialog for submit email.
 Effective Members List :
 -----------------------
 
+- **Graphic artist:** Tickyboom
 - **Programmer:** Base Max
 
